@@ -2,17 +2,13 @@ body {
     display:flex;
     flex: 1;
     flex-direction: column;
+    justify-content: space-between;
     min-height: 100vh;
     margin:0px;
-    justify-content: space-between;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
 
-.header {
+.hero {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -20,30 +16,31 @@ a {
     padding: 10px 100px 10px 100px;
 }
 
-.header img {
-    width: 100px;
-}
-
-.header-bar {
+.hero-bar {
     display: flex;
     justify-content: space-between;
 }
 
-ul, .nav {
+.hero p, .hero a, .footer {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-bar a {
+    text-decoration: none;
+}
+
+.hero-bar img {
+    width: 100px;
+}
+
+.hero-bar ul {
     display: flex;
     align-items: center;
     list-style: none;
     margin: 0;
     padding: 0;
     gap: 20px;
-}
-
-.container {
-    display:flex;
-    flex-direction: column;
-    justify-content: space-around;
-    flex: 1;
-    padding: 0 100px 0 100px;
 }
 
 .section-1{
@@ -57,6 +54,12 @@ ul, .nav {
     width: 500px;
 }
 
+.section-1 .intro-header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
 .intro {
     display: flex;
     flex-direction: column;
@@ -65,12 +68,30 @@ ul, .nav {
 
 .intro button {
     width: 100px;
+    background-color: #3882F6;
 }
+
+/*.container {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1;
+    padding: 0 100px 0 100px;
+}
+*/
 
 .section-2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 100px 0 100px;
+}
+
+.section-2 .info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
 }
 
 .info {
@@ -92,7 +113,8 @@ ul, .nav {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 50px;
+    background-color: #E5E7EB;
+    padding: 20px 100px 20px 100px;
 }
 
 .quote {
@@ -112,11 +134,18 @@ ul, .nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 100px 0 100px;
+}
+
+.section-4 button {
+    width: 100px;
+    background-color: #3882F6;
 }
 
 .CTA-box {
     display: flex;
     background-color: cornflowerblue;
+    align-items: center;
 }
 
 .footer {
