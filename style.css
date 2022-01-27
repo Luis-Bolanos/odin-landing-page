@@ -1,0 +1,90 @@
+body {
+    display:flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 100px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.header img {
+    width: 100px;
+}
+
+ul, .nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.container {
+    display:flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.section-1 img {
+    width: 500px;
+}
+
+.section-2 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+
+}
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    padding: 0 100px;
+}
+
+.quote-author {
+    display: flex;
+    padding: 20px 120px 0px 0px;
+    justify-content: flex-end;
+
+}
+
