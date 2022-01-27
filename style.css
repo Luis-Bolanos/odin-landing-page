@@ -2,8 +2,10 @@ body {
     display:flex;
     flex: 1;
     flex-direction: column;
-    justify-content: center;
-    margin: 0 100px;
+    min-height: 100vh;
+    margin: 0 100px 0 100px;
+    justify-content: space-between;
+
 }
 
 a {
@@ -32,23 +34,34 @@ ul, .nav {
 
 .container {
     display:flex;
-    flex: 1;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    flex: 1;
 }
 
 .section-1{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .section-1 img {
     width: 500px;
 }
 
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro button {
+    width: 100px;
+}
+
 .section-2 {
     display: flex;
-    flex: 1;
     flex-direction: column;
     align-items: center;
 }
@@ -72,7 +85,7 @@ ul, .nav {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 100px;
+    padding: 50px;
 }
 
 .quote {
@@ -86,5 +99,23 @@ ul, .nav {
     padding: 20px 120px 0px 0px;
     justify-content: flex-end;
 
+}
+
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CTA-box {
+    display: flex;
+    background-color: cornflowerblue;
+}
+
+.footer {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
