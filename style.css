@@ -116,7 +116,6 @@ body {
 
 .info-box {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     width: 210px;
     text-align: center;
@@ -126,6 +125,11 @@ body {
 .info-box img {
     border: 5px solid #3882F6;;
     width: 200px;
+}
+
+.info-box p {
+    text-align: center;
+    margin: 0;
 }
 
 #section-3 {
